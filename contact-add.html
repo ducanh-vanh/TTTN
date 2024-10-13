@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm Khách Hàng Tiềm Năng</title>
+    <link href="assets/css/add-style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="open">
+            <h1>Thêm Liên Lạc</h1>
+            <button class="save-btn">Lưu</button>
+        </header>
+
+        <div class="container_1">
+            <form>
+                <div class="checkbox">
+                    <input type="checkbox" id="isOrg" name="isOrg">
+                    <label for="isOrg">Khách hàng tiềm năng là một tổ chức</label>
+                </div>
+            </form>
+        </div>
+        <div class="container_1">
+            <form>
+                <div class="form-group">
+                    <label for="name">Tên cá nhân</label>
+                    <input type="text" id="name" name="name" placeholder="Nhập tên người" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="orgName">Tên tổ chức</label>
+                    <input type="text" id="orgName" name="orgName" placeholder="Nhập tên tổ chức" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Địa Chỉ Email</label>
+                    <input type="email" id="email" name="email" placeholder="Nhập địa chỉ email">
+                </div>
+
+                <div class="form-group">
+                    <label for="telephone">SĐT</label>
+                    <input type="telephone" id="number" name="number" placeholder="Nhập số điện thoại">
+                </div>
+
+                <div class="form-group">
+                    <label for="owner">Người Phụ Trách</label>
+                    <input type="email" id="owner" name="owner" placeholder="Nhập tên người phụ trách">
+                </div>
+
+                <div class="form-group">
+                    <label for="status">Tình Trạng</label>
+                    <select id="status" name="status">
+                        <option value="qualified">Khách hàng tiềm năng</option>
+                        <option value="qualified">Đang mở</option>
+                        <option value="qualified">Đã phản hồi</option>
+                        <option value="qualified">Cơ hội</option>
+                        <option value="qualified">Báo giá</option>
+                        <option value="qualified">Mất Báo Giá</option>
+                        <option value="qualified">Quan tâm</option>
+                        <option value="qualified">Chuyển đổi</option>
+                        <option value="qualified">Không liên hệ</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="title">Xưng Hô</label>
+                    <input type="text" id="title" name="title" placeholder="Nhập xưng hô">
+                </div>
+
+                <div class="form-group">
+                    <label for="position">Chức Danh</label>
+                    <input type="text" id="position" name="position" placeholder="Nhập chức danh">
+                </div>
+
+            
+            </form>
+        </div>
+        <a href="contact.html"><button class="btn-back">Quay Lại</button></a>
+    </div>
+</body>
+
+</html>
